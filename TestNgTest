@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+<parameter name="email_id" value="nejhgbbbbmhbsdddfdfhbhhge@gmail.com"/>
+
+<parameter name="firstname"       value="Neethu"/>
+<parameter name="lastname"       value="Rajendran"/>
+<parameter name="password"       value="12345"/>
+<parameter name="company"       value="neethuco"/>
+<parameter name="address"       value="Thrikkepady"/>
+<parameter name="addresstwo"       value="Kakkanad"/>
+<parameter name="city"       value="Ernakulam"/>
+<parameter name="postcode"       value="12358"/>
+<parameter name="additional"       value="Intraseted"/>
+<parameter name="mobilenumber"       value="9854712358"/>
+<parameter name="alias"       value="alias address"/>
+
+
+
+
+  <test name="Test">
+    <classes>
+      <class name="com.automation.test.automation_test.TestNgTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

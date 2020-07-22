@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27196" started-at="2020-07-22T12:28:13 IST" finished-at="2020-07-22T12:28:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27196" started-at="2020-07-22T12:28:13 IST" finished-at="2020-07-22T12:28:40 IST">
+      <class name="com.automation.test.automation_test.TestNgTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeSuite" is-config="true" duration-ms="21" started-at="2020-07-22T12:28:13 IST" finished-at="2020-07-22T12:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeTest" is-config="true" duration-ms="24364" started-at="2020-07-22T12:28:13 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="f" duration-ms="14" started-at="2020-07-22T12:28:37 IST" data-provider="dp" finished-at="2020-07-22T12:28:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="f" duration-ms="1" started-at="2020-07-22T12:28:37 IST" data-provider="dp" finished-at="2020-07-22T12:28:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clicksignin()[pri:1, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="clicksignin" duration-ms="2681" started-at="2020-07-22T12:28:37 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksignin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="createaccount(java.lang.String)[pri:2, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="createaccount" duration-ms="0" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'email_id' is required by @Test on method createaccount but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1257423149\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'email_id' is required by @Test on method createaccount but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1257423149\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method status="FAIL" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="register" duration-ms="0" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'firstname' is required by @Test on method register but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1257423149\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'firstname' is required by @Test on method register but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-1257423149\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checknames()[pri:4, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="checknames" duration-ms="6" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknames -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.automation.test.automation_test.TestNgTest@3f56875e]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-07-22T12:28:40 IST" finished-at="2020-07-22T12:28:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.automation.test.automation_test.TestNgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
