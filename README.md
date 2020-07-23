@@ -1,4 +1,4 @@
-# Automationcentelon(Project Name)
+
 # Automation Test Using TestNG
 
 A sample automation test suit using TestNG framework with an emailable report including screenshots.
