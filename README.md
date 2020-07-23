@@ -22,6 +22,12 @@ cd Automationcentelon/
 mvn test
 ```
 
+## Test Data
+Test data can be sent from TestNgTest xml as parameters which can be found in the below location.
+```bash
+Automationcentelon/TestNgTest 
+```
+
 ## Test Report
 
 An html report can be found with the test results as well as the screenshots in the below location.
