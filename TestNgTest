@@ -8,18 +8,18 @@
 <parameter name="lastname"        value="Rajendran"/>
 <parameter name="password"        value="12345"/>
 <parameter name="company"         value="neethuco"/>
-<parameter name="address"         value="Thrikkepady"/>
+<parameter name="address"         value="NeethuVilla"/>
 <parameter name="addresstwo"      value="Kakkanad"/>
 <parameter name="city"            value="Ernakulam"/>
 <parameter name="postcode"        value="12358"/>
-<parameter name="additional"      value="Intraseted"/>
+<parameter name="additional"      value="Great Website"/>
 <parameter name="mobilenumber"    value="9854712358"/>
 <parameter name="alias"           value="alias address"/>
 
 
 <test name="chrome test">
 <parameter name="browser" value="chrome" />
-<parameter name="email_id" value="chrome9@gmail.com"/>
+<parameter name="email_id" value="testchromeneethu1@gmail.com"/>
   <classes>
   <class name="com.automation.test.automation_test.TestNgTest"/>
   </classes>
@@ -28,7 +28,7 @@
   
 <test name="firefox test">
 <parameter name="browser" value="firefox" />
-<parameter name="email_id" value="firefox10@gmail.com"/>
+<parameter name="email_id" value="testfoxneethu1@gmail.com"/>
   <classes>
   <class name="com.automation.test.automation_test.TestNgTest"/>
   </classes>

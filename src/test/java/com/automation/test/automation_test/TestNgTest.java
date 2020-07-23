@@ -13,6 +13,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
@@ -44,30 +46,32 @@ public class TestNgTest {
 				else if(browser.equalsIgnoreCase("firefox"))
 			{
 				System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
-				driver=new FirefoxDriver();
+							
+				driver = new FirefoxDriver();
+
+							
 			}
 			  driver.manage().window().maximize();
 			  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			  driver.get(baseurl); 
 		}
 		
-		 
-		
+			
 		public  void takeScreenshot() throws Exception {
 						
 			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			
 			String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime()); 
 			
-			File destination = new File("./Screenshots/"+timeStamp+".png");
+			File destination = new File("./target/surefire-reports/Screenshots/"+timeStamp+".png");
+			String imgSrc = "./Screenshots/"+timeStamp+".png";
+
 			
-			//File destination = new File(".\Screenshots\"+timeStamp+".png");
 			
 			FileUtils.copyFile(scrFile, destination);
 			 
-			String filePath = destination.toString();
-			String path = "<img src='"+destination+"' height='200' width='200' />";
-			System.out.println(path);
+			
+			String path = "<img src='"+imgSrc+"' height='200' width='200' />";
 			Reporter.log(path);
 		
 		}
@@ -75,9 +79,10 @@ public class TestNgTest {
   @Test(priority=1)
   public void click_signin_button() throws Exception
   {
-	  takeScreenshot();
 	WebElement sig=  driver.findElement(By.linkText("Sign in"));
 	sig.click();
+	takeScreenshot();
+
     WebElement e=driver.findElement(By.name("SubmitCreate"));
     Assert.assertEquals(true, e.isDisplayed());
     Thread.sleep(3000);
@@ -87,14 +92,16 @@ public class TestNgTest {
   @Parameters({"email_id"})
   public void create_account(String email_id) throws Exception
   {
-	  takeScreenshot();
 
 	  WebElement e=driver.findElement(By.name("email_create"));
 	  e.sendKeys(email_id);
 	  WebElement submit= driver.findElement(By.name("SubmitCreate"));
 	  submit.click();
-	 // WebElement e1=driver.findElement(By.name("submitAccount"));
-	  //  Assert.assertEquals(true, e1.isDisplayed());
+	  takeScreenshot();
+
+	  
+	  WebElement e1=driver.findElement(By.name("submitAccount"));
+	  Assert.assertEquals(true, e1.isDisplayed());
 	    Thread.sleep(3000);
 
 	  
@@ -105,7 +112,6 @@ public class TestNgTest {
   @Parameters({"firstname","lastname","password","company","address","addresstwo","city","postcode","additional","mobilenumber","alias"})
   public void registration(String firstname,String lastname,String password,String company,String address,String addresstwo,String city,String postcode,String additional,String mobilenumber,String alias) throws Exception
   {
-	  takeScreenshot();
 
 	  WebElement radio1=driver.findElement(By.id("id_gender2"));
 	  radio1.click();
@@ -123,10 +129,7 @@ public class TestNgTest {
 	  Select obj=new Select(days1);
 	  obj.selectByValue("29");
 	  
-	   // WebDriverWait wait = new WebDriverWait(driver, 15);
-	    //WebElement month1=wait.until(ExpectedConditions.elementToBeClickable(By.id("months")));
-
-
+	   
 	  
 	 WebElement month1=driver.findElement(By.name("months"));
 	  Select obj1=new Select(month1);
@@ -170,10 +173,12 @@ public class TestNgTest {
 	  reg.click();
      
 	    Thread.sleep(3000);
+		  takeScreenshot();
 
 	  
-	// String titl=driver.getTitle();
-	// Assert.assertEquals("Login", titl);
+	String titl=driver.getTitle();
+	
+	 Assert.assertEquals("My account - My Store", titl);
 
   }
   
@@ -181,13 +186,13 @@ public class TestNgTest {
   @Parameters({"firstname","lastname"})  
   public void check_correct_names(String firstname,String lastname) throws Exception
   {
-	  takeScreenshot();
 
 	  String fullname =firstname+" "+lastname;
 	  
 	  WebElement name=driver.findElement(By.xpath("//*[@title=\"View my customer account\"]/span"));
 	  String loginname=name.getText();
-	  
+	  takeScreenshot();
+
 	  
 	  Assert.assertEquals(fullname, loginname);
 	    Thread.sleep(3000);

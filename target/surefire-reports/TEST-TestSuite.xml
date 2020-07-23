@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="62.582" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="61.672" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf475767444756044366.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6868457418164319909.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\Downloads\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,12 +60,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="click_signin_button" classname="com.automation.test.automation_test.TestNgTest" time="5.707"/>
-  <testcase name="click_signin_button" classname="com.automation.test.automation_test.TestNgTest" time="1.897"/>
-  <testcase name="create_account" classname="com.automation.test.automation_test.TestNgTest" time="2.75"/>
-  <testcase name="create_account" classname="com.automation.test.automation_test.TestNgTest" time="1.9"/>
-  <testcase name="registration" classname="com.automation.test.automation_test.TestNgTest" time="10.443"/>
-  <testcase name="registration" classname="com.automation.test.automation_test.TestNgTest" time="0.294"/>
-  <testcase name="check_correct_names" classname="com.automation.test.automation_test.TestNgTest" time="2.929"/>
-  <testcase name="check_correct_names" classname="com.automation.test.automation_test.TestNgTest" time="3.538"/>
+  <testcase name="click_signin_button" classname="com.automation.test.automation_test.TestNgTest" time="7.695"/>
+  <testcase name="click_signin_button" classname="com.automation.test.automation_test.TestNgTest" time="0.264"/>
+  <testcase name="create_account" classname="com.automation.test.automation_test.TestNgTest" time="7.101"/>
+  <testcase name="create_account" classname="com.automation.test.automation_test.TestNgTest" time="0.627"/>
+  <testcase name="registration" classname="com.automation.test.automation_test.TestNgTest" time="10.059"/>
+  <testcase name="registration" classname="com.automation.test.automation_test.TestNgTest" time="2.105"/>
+  <testcase name="check_correct_names" classname="com.automation.test.automation_test.TestNgTest" time="1.114"/>
+  <testcase name="check_correct_names" classname="com.automation.test.automation_test.TestNgTest" time="3.55"/>
 </testsuite>
