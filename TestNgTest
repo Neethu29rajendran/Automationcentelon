@@ -19,7 +19,7 @@
 
 <test name="chrome test">
 <parameter name="browser" value="chrome" />
-<parameter name="email_id" value="testchromeneethu1@gmail.com"/>
+<parameter name="email_id" value="testchromeneethurajendran@gmail.com"/>
   <classes>
   <class name="com.automation.test.automation_test.TestNgTest"/>
   </classes>
@@ -28,7 +28,7 @@
   
 <test name="firefox test">
 <parameter name="browser" value="firefox" />
-<parameter name="email_id" value="testfoxneethu1@gmail.com"/>
+<parameter name="email_id" value="testfoxneethurajendran@gmail.com"/>
   <classes>
   <class name="com.automation.test.automation_test.TestNgTest"/>
   </classes>
