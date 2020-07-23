@@ -1,108 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130525.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130528.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130533.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130535.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130538.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130540.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130550.png' height='200' width='200' />]]>
+    </line>
+    <line>
+      <![CDATA[<img src='.\Screenshots\20200723_130550.png' height='200' width='200' />]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="43461" started-at="2020-07-22T18:02:33 IST" finished-at="2020-07-22T18:03:17 IST">
+  <suite name="Suite" duration-ms="61436" started-at="2020-07-23T13:04:53 IST" finished-at="2020-07-23T13:05:55 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43461" started-at="2020-07-22T18:02:33 IST" finished-at="2020-07-22T18:03:17 IST">
+    <test name="firefox test" duration-ms="61436" started-at="2020-07-23T13:04:53 IST" finished-at="2020-07-23T13:05:55 IST">
       <class name="com.automation.test.automation_test.TestNgTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeSuite" is-config="true" duration-ms="33" started-at="2020-07-22T18:02:33 IST" finished-at="2020-07-22T18:02:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeTest" is-config="true" duration-ms="26448" started-at="2020-07-22T18:02:33 IST" finished-at="2020-07-22T18:02:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="f" duration-ms="2" started-at="2020-07-22T18:03:00 IST" data-provider="dp" finished-at="2020-07-22T18:03:00 IST">
+        <test-method status="PASS" signature="selectBrowser(java.lang.String)[pri:0, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="selectBrowser" is-config="true" duration-ms="33891" started-at="2020-07-23T13:04:53 IST" finished-at="2020-07-23T13:05:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="click_signin_button()[pri:1, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="click_signin_button" duration-ms="7614" started-at="2020-07-23T13:05:27 IST" finished-at="2020-07-23T13:05:35 IST">
           <reporter-output>
+            <line>
+              <![CDATA[<img src='.\Screenshots\20200723_130528.png' height='200' width='200' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="f" duration-ms="13" started-at="2020-07-22T18:03:00 IST" data-provider="dp" finished-at="2020-07-22T18:03:00 IST">
+        </test-method> <!-- click_signin_button -->
+        <test-method status="PASS" signature="create_account(java.lang.String)[pri:2, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="create_account" duration-ms="4648" started-at="2020-07-23T13:05:35 IST" finished-at="2020-07-23T13:05:39 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[b]]>
+                <![CDATA[firefox10@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<img src='.\Screenshots\20200723_130535.png' height='200' width='200' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clicksignin()[pri:1, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="clicksignin" duration-ms="4805" started-at="2020-07-22T18:03:00 IST" finished-at="2020-07-22T18:03:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clicksignin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:04 IST" finished-at="2020-07-22T18:03:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:04 IST" finished-at="2020-07-22T18:03:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="createaccount(java.lang.String)[pri:2, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="createaccount" duration-ms="3871" started-at="2020-07-22T18:03:04 IST" finished-at="2020-07-22T18:03:08 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nejhgbbbbmhbsdddfdfhbhhge@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createaccount -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-22T18:03:08 IST" finished-at="2020-07-22T18:03:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:08 IST" finished-at="2020-07-22T18:03:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="register" duration-ms="7815" started-at="2020-07-22T18:03:08 IST" finished-at="2020-07-22T18:03:16 IST">
+        </test-method> <!-- create_account -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="registration" duration-ms="10444" started-at="2020-07-23T13:05:39 IST" finished-at="2020-07-23T13:05:50 IST">
           <params>
             <param index="0">
               <value>
@@ -161,17 +122,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<img src='.\Screenshots\20200723_130540.png' height='200' width='200' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- register -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checknames(java.lang.String, java.lang.String)[pri:4, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="checknames" duration-ms="67" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:16 IST">
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="check_correct_names(java.lang.String, java.lang.String)[pri:4, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="check_correct_names" duration-ms="3224" started-at="2020-07-23T13:05:50 IST" finished-at="2020-07-23T13:05:53 IST">
           <params>
             <param index="0">
               <value>
@@ -185,25 +141,16 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<img src='.\Screenshots\20200723_130550.png' height='200' width='200' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- checknames -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterTest" is-config="true" duration-ms="336" started-at="2020-07-22T18:03:16 IST" finished-at="2020-07-22T18:03:17 IST">
+        </test-method> <!-- check_correct_names -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.test.automation_test.TestNgTest@7cd62f43]" name="afterTest" is-config="true" duration-ms="1603" started-at="2020-07-23T13:05:53 IST" finished-at="2020-07-23T13:05:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.automation.test.automation_test.TestNgTest@46d56d67]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-07-22T18:03:17 IST" finished-at="2020-07-22T18:03:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- com.automation.test.automation_test.TestNgTest -->
-    </test> <!-- Test -->
+    </test> <!-- firefox test -->
   </suite> <!-- Suite -->
 </testng-results>
